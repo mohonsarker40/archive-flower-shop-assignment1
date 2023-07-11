@@ -20,7 +20,6 @@
   color: #E55473;
   background-color: #FFF;
   transition: .5s;
-  outline: 2px solid #E55473;
   cursor: pointer;
 }
 
@@ -50,15 +49,11 @@ nav ul li{
 
 nav a{
   text-decoration: none;
-  color: #E55473;
+  color: #ac8f95;
 }
 
 nav a:hover{
-  padding: 15px 25px;
   color: #E55473;
-  border-radius: 5px;
-  outline: 1px solid #E55473;
-  background: rgba(229, 84, 115, 0.10);
   transform: 0.5s;
 
 }
