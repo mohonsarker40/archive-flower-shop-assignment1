@@ -1,0 +1,103 @@
+/* primary related styles */
+* {
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+}
+
+
+.primary-btn {
+  margin-left: 240px;
+  padding: 20px 43px;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #E55473;
+  border: none;
+}
+
+.primary-btn:hover {
+  color: #E55473;
+  background-color: #FFF;
+  transition: .5s;
+  outline: 2px solid #E55473;
+  cursor: pointer;
+}
+
+
+/* banner related styles */
+.banner {
+  background: rgba(229, 84, 115, 0.10);
+  height: 850px;
+}
+
+.banner-container {
+  width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 97px;
+}
+
+.banner-title {
+  padding-top: 197px;
+  padding-left: 240px;
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+  width: 708px;
+}
+
+.banner-description {
+  margin-left: 240px;
+  padding: 33px 0;
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* .banner-img {
+  margin-top: 452px;
+} */
+
+.banner-img img {
+  /* width: 80%; */
+  width: 635px;
+  height: 800px;
+}
+
+/* hot-deal related styles  */
+.hot-deal {
+  margin-top: 100px;
+  height: 620px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal-container {
+  display: flex;
+  width: 1440px;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 100px;
+  /* padding: 0px 20px; */
+}
+
+.hot-deal-col1 {
+  padding-left: 240px;
+}
+
+.hot-deal-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 24px;
+}
+
+.hot-deal-description {
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 24px;
+}
