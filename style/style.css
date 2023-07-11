@@ -24,6 +24,44 @@
   cursor: pointer;
 }
 
+/* nav related styles */
+
+header{
+  background: #000;
+}
+
+.container{
+  width: 1440px;
+  text-align: center;
+  
+}
+
+/* nav{
+  margin-left: 10px;
+} */
+
+nav ul li{
+  display: inline-block;
+  color: #272727;
+  font-size: 27px;
+  padding: 35px;
+  font-weight: 600;
+}
+
+nav a{
+  text-decoration: none;
+  color: #E55473;
+}
+
+nav a:hover{
+  padding: 15px 25px;
+  color: #E55473;
+  border-radius: 5px;
+  outline: 1px solid #E55473;
+  background: rgba(229, 84, 115, 0.10);
+  transform: 0.5s;
+
+}
 
 /* banner related styles */
 .banner {
