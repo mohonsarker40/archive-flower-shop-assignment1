@@ -173,3 +173,33 @@
   font-size: 16px;
   font-weight: 400;
 }
+
+/* footer related styles */
+footer {
+  height: 449px;
+  background-color: #000;
+  color: #FFF;
+  text-align: center;
+}
+
+.footer-title {
+  font-size: 48px;
+  font-weight: 800;
+  padding: 128px 0 24px 0;
+}
+
+.footer-title span {
+  color: #E55473;
+}
+
+.footer-description {
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 32px;
+}
+
+.copyright{
+  color: rgba(255, 255, 255, 0.40);
+  font-size: 16px;
+  font-weight: 400;
+}
