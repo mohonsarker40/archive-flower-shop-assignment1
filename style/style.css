@@ -66,6 +66,69 @@
   height: 800px;
 }
 
+/* feature  */
+.feature {
+  text-align: center;
+  padding-top: 178px;
+}
+
+.feature-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.feature-description {
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 18px;
+  font-weight: 400;
+  padding: 24px 0 48px 0;
+}
+
+.feature-container {
+  width: 1440px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  gap: 24px;
+
+}
+
+.card-1 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  padding: 110px 76px 0 76px;
+}
+
+.card-title{
+  text-decoration: underline;
+}
+
+.card-2 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  padding: 117px 47px 51px;
+}
+
+.card-3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  padding: 67px 75px 0 75px;
+}
+
+/* .feature-image-1 {
+  background: url('../assets/Rectangle 3.png'), url('../assets/Rectangle 3 (1).png');
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  width: 100%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+} */
+
+/* .feature-image-2 {}
+
+.feature-image-3 {} */
+
 /* hot-deal related styles  */
 .hot-deal {
   margin-top: 100px;
@@ -198,7 +261,7 @@ footer {
   padding-bottom: 32px;
 }
 
-.copyright{
+.copyright {
   color: rgba(255, 255, 255, 0.40);
   font-size: 16px;
   font-weight: 400;
