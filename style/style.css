@@ -18,6 +18,7 @@
 
 .primary-btn:hover {
   color: #E55473;
+  outline: 2px solid #E55473;
   background-color: #FFF;
   transition: .5s;
   cursor: pointer;
@@ -25,21 +26,21 @@
 
 /* nav related styles */
 
-header{
+header {
   background: #000;
 }
 
-.container{
+.container {
   width: 1440px;
   text-align: center;
-  
+
 }
 
 /* nav{
   margin-left: 10px;
 } */
 
-nav ul li{
+nav ul li {
   display: inline-block;
   color: #272727;
   font-size: 27px;
@@ -47,12 +48,12 @@ nav ul li{
   font-weight: 600;
 }
 
-nav a{
+nav a {
   text-decoration: none;
   color: #ac8f95;
 }
 
-nav a:hover{
+nav a:hover {
   color: #E55473;
   transform: 0.5s;
 
@@ -89,14 +90,9 @@ nav a:hover{
   font-weight: 400;
 }
 
-/* .banner-img {
-  margin-top: 452px;
-} */
-
 .banner-img img {
-  /* width: 80%; */
-  width: 635px;
-  height: 800px;
+  width: 80%;
+
 }
 
 /* feature  */
@@ -121,20 +117,15 @@ nav a:hover{
 .feature-container {
   width: 1440px;
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   justify-content: space-between;
   gap: 24px;
-
 }
 
 .card-1 {
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
   padding: 110px 76px 0 76px;
-}
-
-.card-title{
-  text-decoration: underline;
 }
 
 .card-2 {
@@ -149,18 +140,15 @@ nav a:hover{
   padding: 67px 75px 0 75px;
 }
 
-/* .feature-image-1 {
-  background: url('../assets/Rectangle 3.png'), url('../assets/Rectangle 3 (1).png');
-  border-radius: 300px 300px 0px 0px;
-  background: rgba(167, 33, 98, 0.15);
-  width: 100%;
-  background-repeat: no-repeat;
-  margin: 0 auto;
-} */
-
-/* .feature-image-2 {}
-
-.feature-image-3 {} */
+.card-text {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+  text-decoration-line: underline;
+  color: #272727;
+  font-size: 24px;
+}
 
 /* hot-deal related styles  */
 .hot-deal {
@@ -224,12 +212,12 @@ nav a:hover{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: auto;
 }
 
 .single-image {
-  width: 342px;
-  height: 396px;
+  width: 80%;
+  /* width: 342px; */
+  /* height: 396px; */
   padding: 0 12px;
 }
 
